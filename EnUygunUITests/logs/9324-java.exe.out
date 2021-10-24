@@ -1,0 +1,51 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 1275milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1275"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 52060"}
+{"logLevel":"info","message":"Listening on port:52060"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.clickBodrumButton' and 'com.enuygun.PageTest.WebCase.clickBodrumButton'"}
+{"logLevel":"debug","message":"Found Populer sehirlerden Bodrum secilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.clickIstanbulButton' and 'com.enuygun.PageTest.WebCase.clickIstanbulButton'"}
+{"logLevel":"debug","message":"Found Populer sehirlerden Istanbul secilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.clickToButton' and 'com.enuygun.PageTest.WebCase.clickToButton'"}
+{"logLevel":"debug","message":"Found Nereye kismina tiklanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.clickFromButton1' and 'com.enuygun.PageTest.WebCase.clickFromButton1'"}
+{"logLevel":"debug","message":"Found Nereden kismina tiklanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.clickSearchFlightButton' and 'com.enuygun.PageTest.WebCase.clickSearchFlightButton'"}
+{"logLevel":"debug","message":"Found Bilet bul butonuna tiklanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.clickDepartureDateButton' and 'com.enuygun.PageTest.WebCase.clickDepartureDateButton'"}
+{"logLevel":"debug","message":"Found Gidis tarihi kismina tiklanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.navigateToEnUygun' and 'com.enuygun.PageTest.WebCase.navigateToEnUygun'"}
+{"logLevel":"debug","message":"Found EnUygun sayfasi acilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.clickCalendarButton' and 'com.enuygun.PageTest.WebCase.clickCalendarButton'"}
+{"logLevel":"debug","message":"Found Acilan takvimde gidis tarihi secilir in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tBilet bul butonuna tiklanir : public void clickSearchFlightButton()"}
+{"logLevel":"debug","message":"\tPopuler sehirlerden Bodrum secilir : public void clickBodrumButton()"}
+{"logLevel":"debug","message":"\tAcilan takvimde gidis tarihi secilir : public void clickCalendarButton()"}
+{"logLevel":"debug","message":"\tPopuler sehirlerden Istanbul secilir : public void clickIstanbulButton()"}
+{"logLevel":"debug","message":"\tNereye kismina tiklanir : public void clickToButton()"}
+{"logLevel":"debug","message":"\tEnUygun sayfasi acilir : public void navigateToEnUygun()"}
+{"logLevel":"debug","message":"\tNereden kismina tiklanir : public void clickFromButton1()"}
+{"logLevel":"debug","message":"\tGidis tarihi kismina tiklanir : public void clickDepartureDateButton()"}
+Starting MSEdgeDriver 95.0.1020.30 (09f7018e2a65a55dea3a0a261efca40ae03471ed) on port 49266
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+MSEdgeDriver was started successfully.
+Eki 24, 2021 1:18:41 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Eki 24, 2021 1:18:41 ÖS org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 95
+{"logLevel":"debug","message":"Executing 'EnUygun sayfasi acilir' using 'class com.enuygun.PageTest.WebCase.navigateToEnUygun"}
+{"logLevel":"debug","message":"Executing 'Nereden kismina tiklanir' using 'class com.enuygun.PageTest.WebCase.clickFromButton1"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

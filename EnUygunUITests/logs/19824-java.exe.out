@@ -1,0 +1,100 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 889milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 889"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 52751"}
+{"logLevel":"info","message":"Listening on port:52751"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.setTckn' and 'com.enuygun.PageTest.WebCase.setTckn'"}
+{"logLevel":"debug","message":"Found Tc Kimlik No {} girilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.clickChooseButton' and 'com.enuygun.PageTest.WebCase.clickChooseButton'"}
+{"logLevel":"debug","message":"Found Sec butonuna tiklanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.setName' and 'com.enuygun.PageTest.WebCase.setName'"}
+{"logLevel":"debug","message":"Found Ad {} doldurulur in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.clickFromButton1' and 'com.enuygun.PageTest.WebCase.clickFromButton1'"}
+{"logLevel":"debug","message":"Found Nereden kismina tiklanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.clickSearchFlightButton' and 'com.enuygun.PageTest.WebCase.clickSearchFlightButton'"}
+{"logLevel":"debug","message":"Found Bilet bul butonuna tiklanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.setBirthDate' and 'com.enuygun.PageTest.WebCase.setBirthDate'"}
+{"logLevel":"debug","message":"Found Doğum tarihi {} {} {} girilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.clickStandartButton' and 'com.enuygun.PageTest.WebCase.clickStandartButton'"}
+{"logLevel":"debug","message":"Found Standart destek butonuna tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.checkRezName' and 'com.enuygun.PageTest.WebCase.checkRezName'"}
+{"logLevel":"debug","message":"Found Ad alanı kontrol edilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.clickBodrumButton' and 'com.enuygun.PageTest.WebCase.clickBodrumButton'"}
+{"logLevel":"debug","message":"Found Populer sehirlerden Bodrum secilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.clickGenderButton' and 'com.enuygun.PageTest.WebCase.clickGenderButton'"}
+{"logLevel":"debug","message":"Found Cinsiyet erkek seçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.setEmail' and 'com.enuygun.PageTest.WebCase.setEmail'"}
+{"logLevel":"debug","message":"Found E posta adresi {} yazılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.clickIstanbulButton' and 'com.enuygun.PageTest.WebCase.clickIstanbulButton'"}
+{"logLevel":"debug","message":"Found Populer sehirlerden Istanbul secilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.setLastName' and 'com.enuygun.PageTest.WebCase.setLastName'"}
+{"logLevel":"debug","message":"Found Soyad {} doldurulur in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.setHealth' and 'com.enuygun.PageTest.WebCase.setHealth'"}
+{"logLevel":"debug","message":"Found HES Kodu {} girilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.clickPaymentButton' and 'com.enuygun.PageTest.WebCase.clickPaymentButton'"}
+{"logLevel":"debug","message":"Found Ödeme butonuna tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.setGSM' and 'com.enuygun.PageTest.WebCase.setGSM'"}
+{"logLevel":"debug","message":"Found Cep telefonunuz {} yazılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.clickToButton' and 'com.enuygun.PageTest.WebCase.clickToButton'"}
+{"logLevel":"debug","message":"Found Nereye kismina tiklanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.clickDepartureDateButton' and 'com.enuygun.PageTest.WebCase.clickDepartureDateButton'"}
+{"logLevel":"debug","message":"Found Gidis tarihi kismina tiklanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.navigateToEnUygun' and 'com.enuygun.PageTest.WebCase.navigateToEnUygun'"}
+{"logLevel":"debug","message":"Found EnUygun sayfasi acilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.clickCalendarButton' and 'com.enuygun.PageTest.WebCase.clickCalendarButton'"}
+{"logLevel":"debug","message":"Found Acilan takvimde gidis tarihi secilir in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tSoyad {} doldurulur : public void setLastName(String lastName)"}
+{"logLevel":"debug","message":"\tCinsiyet erkek seçilir : public void clickGenderButton()"}
+{"logLevel":"debug","message":"\tBilet bul butonuna tiklanir : public void clickSearchFlightButton()"}
+{"logLevel":"debug","message":"\tPopuler sehirlerden Istanbul secilir : public void clickIstanbulButton()"}
+{"logLevel":"debug","message":"\tE posta adresi {} yazılır : public void setEmail(String email)"}
+{"logLevel":"debug","message":"\tAd alanı kontrol edilir : public void checkRezName()"}
+{"logLevel":"debug","message":"\tNereye kismina tiklanir : public void clickToButton()"}
+{"logLevel":"debug","message":"\tCep telefonunuz {} yazılır : public void setGSM(String gsm)"}
+{"logLevel":"debug","message":"\tEnUygun sayfasi acilir : public void navigateToEnUygun()"}
+{"logLevel":"debug","message":"\tHES Kodu {} girilir : public void setHealth(String health)"}
+{"logLevel":"debug","message":"\tStandart destek butonuna tıklanır : public void clickStandartButton()"}
+{"logLevel":"debug","message":"\tÖdeme butonuna tıklanır : public void clickPaymentButton()"}
+{"logLevel":"debug","message":"\tPopuler sehirlerden Bodrum secilir : public void clickBodrumButton()"}
+{"logLevel":"debug","message":"\tAcilan takvimde gidis tarihi secilir : public void clickCalendarButton()"}
+{"logLevel":"debug","message":"\tTc Kimlik No {} girilir : public void setTckn(String tckn)"}
+{"logLevel":"debug","message":"\tNereden kismina tiklanir : public void clickFromButton1()"}
+{"logLevel":"debug","message":"\tGidis tarihi kismina tiklanir : public void clickDepartureDateButton()"}
+{"logLevel":"debug","message":"\tAd {} doldurulur : public void setName(String name)"}
+{"logLevel":"debug","message":"\tSec butonuna tiklanir : public void clickChooseButton()"}
+{"logLevel":"debug","message":"\tDoğum tarihi {} {} {} girilir : public void setBirthDate(String day, String month, String year)"}
+Starting MSEdgeDriver 95.0.1020.30 (09f7018e2a65a55dea3a0a261efca40ae03471ed) on port 1254
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+MSEdgeDriver was started successfully.
+Eki 24, 2021 4:08:44 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'EnUygun sayfasi acilir' using 'class com.enuygun.PageTest.WebCase.navigateToEnUygun"}
+{"logLevel":"debug","message":"Executing 'Nereden kismina tiklanir' using 'class com.enuygun.PageTest.WebCase.clickFromButton1"}
+{"logLevel":"debug","message":"Executing 'Populer sehirlerden Istanbul secilir' using 'class com.enuygun.PageTest.WebCase.clickIstanbulButton"}
+{"logLevel":"debug","message":"Executing 'Nereye kismina tiklanir' using 'class com.enuygun.PageTest.WebCase.clickToButton"}
+{"logLevel":"debug","message":"Executing 'Populer sehirlerden Bodrum secilir' using 'class com.enuygun.PageTest.WebCase.clickBodrumButton"}
+{"logLevel":"debug","message":"Executing 'Gidis tarihi kismina tiklanir' using 'class com.enuygun.PageTest.WebCase.clickDepartureDateButton"}
+{"logLevel":"debug","message":"Executing 'Acilan takvimde gidis tarihi secilir' using 'class com.enuygun.PageTest.WebCase.clickCalendarButton"}
+{"logLevel":"debug","message":"Executing 'Bilet bul butonuna tiklanir' using 'class com.enuygun.PageTest.WebCase.clickSearchFlightButton"}
+{"logLevel":"debug","message":"Executing 'Sec butonuna tiklanir' using 'class com.enuygun.PageTest.WebCase.clickChooseButton"}
+{"logLevel":"debug","message":"Executing 'E posta adresi {} yazılır' using 'class com.enuygun.PageTest.WebCase.setEmail"}
+{"logLevel":"debug","message":"Executing 'Cep telefonunuz {} yazılır' using 'class com.enuygun.PageTest.WebCase.setGSM"}
+{"logLevel":"debug","message":"Executing 'Ad {} doldurulur' using 'class com.enuygun.PageTest.WebCase.setName"}
+{"logLevel":"debug","message":"Executing 'Soyad {} doldurulur' using 'class com.enuygun.PageTest.WebCase.setLastName"}
+{"logLevel":"debug","message":"Executing 'Doğum tarihi {} {} {} girilir' using 'class com.enuygun.PageTest.WebCase.setBirthDate"}
+{"logLevel":"debug","message":"Executing 'Tc Kimlik No {} girilir' using 'class com.enuygun.PageTest.WebCase.setTckn"}
+{"logLevel":"debug","message":"Executing 'Cinsiyet erkek seçilir' using 'class com.enuygun.PageTest.WebCase.clickGenderButton"}
+{"logLevel":"debug","message":"Executing 'HES Kodu {} girilir' using 'class com.enuygun.PageTest.WebCase.setHealth"}
+{"logLevel":"debug","message":"Executing 'Standart destek butonuna tıklanır' using 'class com.enuygun.PageTest.WebCase.clickStandartButton"}
+{"logLevel":"debug","message":"Executing 'Ödeme butonuna tıklanır' using 'class com.enuygun.PageTest.WebCase.clickPaymentButton"}
+{"logLevel":"debug","message":"Executing 'Ad alanı kontrol edilir' using 'class com.enuygun.PageTest.WebCase.checkRezName"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

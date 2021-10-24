@@ -1,0 +1,44 @@
+Created by bedir on 23.10.2021
+
+This is a concept file with following syntax for each concept.
+# EnUygun Ana Sayfasina Gidilir
+* EnUygun sayfasi acilir
+
+# Nereden kismindan Sehir Istanbul secilir
+* Nereden kismina tiklanir
+* Populer sehirlerden Istanbul secilir
+
+# Nereye kismindan sehir Bodrum secilir
+* Nereye kismina tiklanir
+* Populer sehirlerden Bodrum secilir
+
+# Gidis tarihi secilir
+* Gidis tarihi kismina tiklanir
+* Acilan takvimde gidis tarihi secilir
+
+# Ucuz bilet bul butonuna tiklanır
+* Bilet bul butonuna tiklanir
+
+# Listelenen uçuşlardan ilk uçuş seçilir
+* Sec butonuna tiklanir
+
+# İletişim bilgileri alanı doldurulur
+* E posta adresi "bedirhanbilecen8@gmail.com" yazılır
+* Cep telefonunuz " 5379913766" yazılır
+
+# Yetişkin alanı doldurulur
+* Ad "Bedirhan" doldurulur
+* Soyad "Bilecen" doldurulur
+* Doğum tarihi "01" "08" "1996" girilir
+* Tc Kimlik No "13229443480" girilir
+* Cinsiyet erkek seçilir
+* HES Kodu "E5C9-9185-12" girilir
+
+# Destek seviyenizi belirleyin alanı doldurulur
+* Standart destek butonuna tıklanır
+
+# Ödemeye ilerle butonuna tıklanır
+* Ödeme butonuna tıklanır
+
+# Ad alanının doğru geldiği kontrol edilir
+* Ad alanı kontrol edilir

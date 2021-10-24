@@ -1,0 +1,41 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 1687milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1687"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 53491"}
+{"logLevel":"info","message":"Listening on port:53491"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.clickFromButton' and 'com.enuygun.PageTest.WebCase.clickFromButton'"}
+{"logLevel":"debug","message":"Found Nereden kısmına tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.clickBodrumButton' and 'com.enuygun.PageTest.WebCase.clickBodrumButton'"}
+{"logLevel":"debug","message":"Found Popüler şehirlerden Bodrum seçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.clickIstanbulButton' and 'com.enuygun.PageTest.WebCase.clickIstanbulButton'"}
+{"logLevel":"debug","message":"Found Popüler şehirlerden İstanbul seçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.clickToButton' and 'com.enuygun.PageTest.WebCase.clickToButton'"}
+{"logLevel":"debug","message":"Found Nereye kısmına tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.clickSearchFlightButton' and 'com.enuygun.PageTest.WebCase.clickSearchFlightButton'"}
+{"logLevel":"debug","message":"Found Ucuz bilet bul butonuna tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.clickDepartureDateButton' and 'com.enuygun.PageTest.WebCase.clickDepartureDateButton'"}
+{"logLevel":"debug","message":"Found Gidiş tarihi kısmına tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.navigateToEnUygun' and 'com.enuygun.PageTest.WebCase.navigateToEnUygun'"}
+{"logLevel":"debug","message":"Found EnUygun sayfası açılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.enuygun.PageTest.WebCase.clickCalendarButton' and 'com.enuygun.PageTest.WebCase.clickCalendarButton'"}
+{"logLevel":"debug","message":"Found Açılan takvimde gidiş tarihi seçilir in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tPopüler şehirlerden İstanbul seçilir : public void clickIstanbulButton()"}
+{"logLevel":"debug","message":"\tEnUygun sayfası açılır : public void navigateToEnUygun()"}
+{"logLevel":"debug","message":"\tNereden kısmına tıklanır : public void clickFromButton()"}
+{"logLevel":"debug","message":"\tGidiş tarihi kısmına tıklanır : public void clickDepartureDateButton()"}
+{"logLevel":"debug","message":"\tUcuz bilet bul butonuna tıklanır : public void clickSearchFlightButton()"}
+{"logLevel":"debug","message":"\tPopüler şehirlerden Bodrum seçilir : public void clickBodrumButton()"}
+{"logLevel":"debug","message":"\tNereye kısmına tıklanır : public void clickToButton()"}
+{"logLevel":"debug","message":"\tAçılan takvimde gidiş tarihi seçilir : public void clickCalendarButton()"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
